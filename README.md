@@ -12,6 +12,7 @@ The Warrior class offers a greater increase in offensive capabilites, an offensi
 The Defender class offers a greater increase in defensive capabilites, a defense class. 
 
 **Monster Classes**
+
 Goblins are the weakest of the Monsters. 
 Werewolves are a slightly greater challenge. 
 The Ogre is the currently the most difficult encounter.
