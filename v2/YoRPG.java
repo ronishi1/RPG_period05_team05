@@ -74,11 +74,11 @@ public class YoRPG
     } catch ( IOException e ) { }
     
     s = name;
-    s += "\n Choose thy class: \n";
-    s += "\t1: Warrior, one who holds strength";
-    s += "\t2: Defender, one who holds defense";
-    s += "\t3: Knight, one who holds a balance of the two";
-    
+    s += ", choose thy class: \n";
+    s += "\t1: Warrior, one who holds strength \n";
+    s += "\t2: Defender, one who holds defense \n";
+    s += "\t3: Knight, one who holds a balance of the two\n";
+    System.out.println(s);
     try {
     	role = Integer.parseInt(in.readLine());
     } catch ( IOException e) {}
