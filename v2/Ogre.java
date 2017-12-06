@@ -7,4 +7,9 @@ public class Ogre extends Monster {
 		defense = 15;
 		attackR = 1;
 	}
+
+	public String toString() {
+		return super.toString() + System.lineSeparator() + "Type: Ogre";
+	}
+
 }
