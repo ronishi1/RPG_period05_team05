@@ -7,4 +7,9 @@ public class Werewolf extends Monster {
 		defense = 10;
 		attackR = 1;
 	}
+
+	public String toString() {
+		return super.toString() + System.lineSeparator() + "Type: Werewolf";
+	}
+
 }
