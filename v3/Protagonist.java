@@ -6,6 +6,10 @@ public abstract class Protagonist extends Character {
 	// YoRPG.java:29: error: Protagonist is abstract; cannot be instantiated
   // Protagonist test = new Protagonist("Bob");
 
+	// Warrior.java:1: error: Warrior is not abstract and does not override abstract method toString() in Protagonist
+  // public class Warrior extends Protagonist {
+  //        ^
+
 	private String name;
 	// Constructor for protagonist
 	public Protagonist (String s) {
