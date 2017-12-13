@@ -1,4 +1,7 @@
 public abstract class Protagonist extends Character {
+	// Protagonist.java:1: error: Protagonist is not abstract and does not override abstract method toString() in Protagonist
+  // public class Protagonist extends Character {
+  //        ^
 
 	private String name;
 	// Constructor for protagonist
