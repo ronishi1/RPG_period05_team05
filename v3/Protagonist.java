@@ -3,6 +3,9 @@ public abstract class Protagonist extends Character {
   // public class Protagonist extends Character {
   //        ^
 
+	// YoRPG.java:29: error: Protagonist is abstract; cannot be instantiated
+  // Protagonist test = new Protagonist("Bob");
+
 	private String name;
 	// Constructor for protagonist
 	public Protagonist (String s) {
