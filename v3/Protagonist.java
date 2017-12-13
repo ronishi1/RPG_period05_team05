@@ -1,5 +1,5 @@
-public class Protagonist extends Character {
-	
+public abstract class Protagonist extends Character {
+
 	private String name;
 	// Constructor for protagonist
 	public Protagonist (String s) {
@@ -13,25 +13,14 @@ public class Protagonist extends Character {
 	public String getName() {
 		return name;
 	}
-	
-	// Raises strength, lowers defense
-	public void specialize() { 
-		defense -= 10;
-		strength += 20;
-	}
-	
-	// Normalizes attack and defense
-	public void normalize() {
-		defense = 40;
-		strength = 100; 
-	}
 
-	public String toString() {
-		return "Name: " + name + System.lineSeparator() +
-			"HP: " + HP + System.lineSeparator() +
-			"Strength: " + strength + System.lineSeparator() +
-			"Defense: " + defense + System.lineSeparator() +
-			"Attack Rating: " + attackR;
-	}
+	// Raises strength, lowers defense
+	public abstract void specialize();
+
+	// Normalizes attack and defense
+	public abstract void normalize();
+
+	// toString
+	public abstract String toString();
 
 }
